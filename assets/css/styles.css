@@ -2948,7 +2948,7 @@ header.normal.header-sticky {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   -webkit-transition: all 0.3s ease;
@@ -30625,11 +30625,11 @@ ul.list-check li .icon {
   border-radius: 0 0 10px 10px;
 }
 .cv-mb-d10 .mb-menu-link {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 36px;
   color: var(--neu-900);
   text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding-top: 16px;
   padding-bottom: 16px !important;
 }

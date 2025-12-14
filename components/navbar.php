@@ -3,7 +3,7 @@
         ?>
         <header class="tf-header-d10">
             <div class="container-d10-new">
-                <div class="header-inner">
+                <div class="header-inner mx-1">
                     <a href="./" class="d10-logo ps-3">
                         <img loading="lazy" width="30" height="30" src="./assets/images/smartmenu-icon-dark.svg" alt="Logo">
                     </a>
@@ -57,7 +57,7 @@
         <div class="offcanvas offcanvas-start canvas-mb cv-mb-d10" id="mobileMenu">
             <div class="canvas-header">
                 <a href="#" class="logo-site">
-                    <img loading="lazy" width="124" height="20" src="./assets/images/logo/logo-mobile.svg" alt="Logo">
+                    <img loading="lazy" width="35" height="35" src="./assets/images/smartmenu-icon-dark.svg" alt="Logo">
                 </a>
                 <span class="icon-close-popup" data-bs-dismiss="offcanvas">
                     <i class="icon-close"></i>
@@ -65,36 +65,31 @@
             </div>
             <div class="canvas-body">
                 <div class="mb-content-top">
-                    <ul class="nav-ul-mb" id="wrapper-menu-navigation"></ul>
+                    <ul class="nav-ul-mb pt-5" id="wrapper-menu-navigation"></ul>
                 </div>
             </div>
             <div class="canvas-bottom">
                 <ul class="mb-social">
                     <li>
-                        <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                        <a href="https://www.facebook.com/usesmartmenu" target="_blank" class="social-link">
                             <i class="icon-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                        <a href="https://www.instagram.com/usesmartmenu" target="_blank" class="social-link">
                             <i class="icon-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://x.com/" target="_blank" class="social-link">
-                            <i class="icon-twitter-x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.tiktok.com/" target="_blank" class="social-link">
-                            <i class="icon-linkin"></i>
+                        <a href="https://www.tiktok.com/@usesmartmenu" target="_blank" class="social-link">
+                            <i class="icon-tiktok"></i>
                         </a>
                     </li>
                 </ul>
                 <div class="tf-list justify-content-center">
-                    <a href="#" class="text-black fw-medium letter-space-2 text-body-4">Privacy Policy
+                    <a href="privacy" class="text-black fw-medium letter-space-2 text-body-4">Privacy Policy
                     </a>
-                    <a href="#" class="text-black fw-medium letter-space-2 text-body-4">Terms of use
+                    <a href="terms" class="text-black fw-medium letter-space-2 text-body-4">Terms of use
                     </a>
                 </div>
             </div>

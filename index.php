@@ -6,7 +6,7 @@ include "./components/navbar.php";
         <!-- Page Title -->
         <div class="container-d10">
             <section class="page-title-d10 mt-40">
-                <div class="page-title-content">
+                <div class="page-title-content pt-0">
                     <h1 class="title wow fadeInUp">
                         Smart Digital Menus <span class="span-img"><img loading="lazy" width="187" height="73"
                                 src="./assets/images/hero-scan0.png" alt="Image"></span> for <span
