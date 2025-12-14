@@ -34,7 +34,7 @@
                         </nav>
                     </div>
                     <div class="header-right d-flex align-items-center gap-12">
-                        <a href="contact.html" class="tf-btn-d10">
+                        <a href="https://app.smartmenu.africa/restaurant-signup" target="_blank" class="tf-btn-d10">
                             <span class="text_btn fw-medium">
                                 Get Started
                             </span>

@@ -3,7 +3,6 @@ include "./components/header.php";
 include "./components/navbar.php";
 ?>
 
-        <!-- Page Title -->
         <div class="container-d10">
             <section class="page-title-d10 mt-40">
                 <div class="page-title-content pt-0">
@@ -16,17 +15,17 @@ include "./components/navbar.php";
                         Let guests scan, browse, and order with ease using SmartMenu’s fast, contactless digital menu platform.
                     </div>
                     <div class="list-btn d-flex flex-wrap align-items-center gap-8 wow fadeInUp">
-                        <a href="pricing.html" class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600">
+                        <a href="https://app.smartmenu.africa/restaurant-signup" target="_blank" class="tf-btn-d10">
                             <span class="text_btn fw-medium">
-                                Get Started Free
+                                Get Started
                             </span>
                             <span class="icon">
                                 <i class="icon-angle-right-solid"></i>
                             </span>
                         </a>
-                        <a href="feature.html" class="tf-btn-d10 style-noarrow style-bg-27 hover-bg-primay-600">
+                        <a href="how-it-works" class="tf-btn-d10 style-noarrow style-bg-27 hover-bg-primay-600">
                             <span class="text_btn fw-medium">
-                                Explore Services
+                                How it works
                             </span>
                         </a>
                     </div>
@@ -36,7 +35,6 @@ include "./components/navbar.php";
                 </div>
             </section>
         </div>
-        <!-- /Page Title -->
 
         <!-- Section Key Features -->
         <section class="seciton-key-features-d10 section-fix-scroll flat-spacing-d10-4">
@@ -52,21 +50,19 @@ include "./components/navbar.php";
                                     <div class="swiper-slide">
                                         <div class="heading-section-d10">
                                             <span class="tag-badget-d10 mb-16 wow fadeZoom">
-                                                <span class="dot"></span>
-                                                <span class="text-caption">Key Features</span>
+                                                <span class="dot" style="background-color: #08910c"></span>
+                                                <span class="text-caption" style="color: #08910c">Feature</span>
                                             </span>
 
                                             <h5 class="title fw-medium mb-16 wow fadeZoom">
-                                                Fast & Secure Application
+                                                Restaurants
                                             </h5>
                                             <div class="sub-title text-body-3 mb-40 wow fadeZoom">
-                                                Apply online within minutes and get instant
-                                                <br>approval status.
+                                                SmartMenu lets restaurants build and update QR code menus for a fast, contactless dining experience.
                                             </div>
-                                            <a href="about-us.html"
-                                                class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
+                                            <a href="https://app.smartmenu.africa/restaurant-signup" target="_blank" class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
                                                 <span class="text_btn fw-medium">
-                                                    Get Started Free
+                                                   Create Your Digital Menu
                                                 </span>
                                                 <span class="icon">
                                                     <i class="icon-angle-right-solid"></i>
@@ -78,21 +74,19 @@ include "./components/navbar.php";
                                     <div class="swiper-slide">
                                         <div class="heading-section-d10">
                                             <span class="tag-badget-d10 mb-16 wow fadeZoom">
-                                                <span class="dot"></span>
-                                                <span class="text-caption">Key Features</span>
+                                                <span class="dot" style="background-color: #08910c"></span>
+                                                <span class="text-caption" style="color: #08910c">Feature</span>
                                             </span>
 
                                             <h5 class="title fw-medium mb-16 wow fadeZoom">
-                                                Flexible Credit Limit
+                                                Bars & Lounges
                                             </h5>
                                             <div class="sub-title text-body-3 mb-40 wow fadeZoom">
-                                                Enjoy spending freedom with adjustable
-                                                <br>limits tailored to your income
+                                                SmartMenu lets bars and lounges create QR code menus for easy scanning, fast contactless browsing, and real-time updates.
                                             </div>
-                                            <a href="about-us.html"
-                                                class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
+                                            <a href="https://app.smartmenu.africa/restaurant-signup" target="_blank" class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
                                                 <span class="text_btn fw-medium">
-                                                    Get Started Free
+                                                    Upgrade Your Menu
                                                 </span>
                                                 <span class="icon">
                                                     <i class="icon-angle-right-solid"></i>
@@ -104,18 +98,48 @@ include "./components/navbar.php";
                                     <div class="swiper-slide">
                                         <div class="heading-section-d10">
                                             <span class="tag-badget-d10 mb-16 wow fadeZoom">
-                                                <span class="dot"></span>
-                                                <span class="text-caption">Key Features</span>
+                                                <span class="dot" style="background-color: #08910c"></span>
+                                                <span class="text-caption" style="color: #08910c">Feature</span>
                                             </span>
 
                                             <h5 class="title fw-medium mb-16 wow fadeZoom">
-                                                24/7 Customer Support
+                                                Fast Food
                                             </h5>
-                                            <div class="sub-title text-body-3 wow fadeZoom">
-                                                Get assistance anytime through chat,
-                                                <br>phone, or email with our dedicated
-                                                <br>support team.
+                                            <div class="sub-title text-body-3 mb-40 wow fadeZoom">
+                                                SmartMenu lets fast food outlets create QR code menus for contactless ordering, real-time updates, and faster service.
                                             </div>
+                                            <a href="https://app.smartmenu.africa/restaurant-signup" target="_blank" class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
+                                                <span class="text_btn fw-medium">
+                                                    Start in Minutes
+                                                </span>
+                                                <span class="icon">
+                                                    <i class="icon-angle-right-solid"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- item 4 -->
+                                    <div class="swiper-slide">
+                                        <div class="heading-section-d10">
+                                            <span class="tag-badget-d10 mb-16 wow fadeZoom">
+                                                <span class="dot" style="background-color: #08910c"></span>
+                                                <span class="text-caption" style="color: #08910c">Feature</span>
+                                            </span>
+
+                                            <h5 class="title fw-medium mb-16 wow fadeZoom">
+                                                Online Chefs/Vendors
+                                            </h5>
+                                            <div class="sub-title text-body-3 mb-40 wow fadeZoom">
+                                                SmartMenu lets online chefs and vendors share menu links and QR code menus for easy browsing and real-time updates.
+                                            </div>
+                                            <a href="https://app.smartmenu.africa/restaurant-signup" target="_blank" class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
+                                                <span class="text_btn fw-medium">
+                                                    Switch to SmartMenu
+                                                </span>
+                                                <span class="icon">
+                                                    <i class="icon-angle-right-solid"></i>
+                                                </span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -129,68 +153,41 @@ include "./components/navbar.php";
                             <div class="swiper-wrapper">
                                 <!-- item 1 -->
                                 <div class="swiper-slide">
-                                    <div class="key-item-d10 key-item-1">
+                                    <div class="key-item-d10 key-item-1" style="background-image: url('./assets/images/restaurants.jpg'); background-position: center; background-size: cover;">
                                         <div class="img-bg">
-                                            <img loading="lazy" src="./assets/images/item/bg-key-item-1.png" alt="">
-                                        </div>
-
-                                        <div class="image-item">
-                                            <img loading="lazy" width="383" height="320"
-                                                src="./assets/images/item/img-item-key1.png" alt="Image">
+                                            <img loading="lazy" src="./assets/images/restaurants.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <!-- item 2 -->
                                 <div class="swiper-slide">
-                                    <div class="key-item-d10 key-item-2">
+                                    <div class="key-item-d10 key-item-2" style="background-image: url('./assets/images/bar.jpg'); background-position: center; background-size: cover;">
                                         <div class="img-bg">
-                                            <img loading="lazy" src="./assets/images/item/bg-key-item-1.png" alt="">
-                                        </div>
-
-                                        <div class="image-item">
-                                            <img loading="lazy" width="383" height="320"
-                                                src="./assets/images/item/img-item-key2.png" alt="Image">
+                                            <img loading="lazy" src="./assets/images/bar.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <!-- item 3 -->
                                 <div class="swiper-slide">
-                                    <div class="key-item-d10 key-item-3">
-                                        <div class="img-bg-2">
-                                            <img loading="lazy" src="./assets/images/item/bg-key-item-2.png" alt="">
+                                    <div class="key-item-d10 key-item-3" style="background-image: url('./assets/images/fastfood.jpg'); background-position: center; background-size: cover;">
+                                        <div class="img-bg">
+                                            <img loading="lazy" src="./assets/images/fastfood.jpg" alt="">
                                         </div>
-                                        <div class="logo">
-                                            <img loading="lazy" src="./assets/images/item/logo-key-item.svg" alt="">
-                                        </div>
-
-                                        <div class="item-content">
-                                            <div class="title">
-                                                Smart Task
-                                                Management
-                                                Solution
-                                            </div>
-                                            <a href="about-us.html" class="tf-btn-d10 style-bg-neu-900">
-                                                <span class="text_btn fw-medium">
-                                                    Get a Free Quote
-                                                </span>
-                                                <span class="icon">
-                                                    <i class="icon-angle-right-solid"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-
                                     </div>
                                 </div>
-                                <!-- item 2 -->
-                                <div class="swiper-slide d-none d-xl-block">
-                                    <div class="key-item-d10 key-item-2">
+                                <!-- item 4 -->
+                                <div class="swiper-slide">
+                                    <div class="key-item-d10 key-item-4" style="background-image: url('./assets/images/social.jpg'); background-position: center; background-size: cover;">
                                         <div class="img-bg">
-                                            <img loading="lazy" src="./assets/images/item/bg-key-item-1.png" alt="">
+                                            <img loading="lazy" src="./assets/images/social.jpg" alt="">
                                         </div>
-
-                                        <div class="image-item">
-                                            <img loading="lazy" width="383" height="320"
-                                                src="./assets/images/item/img-item-key2.png" alt="Image">
+                                    </div>
+                                </div>
+                                <!-- item 3 -->
+                                <div class="swiper-slide d-none d-xl-block">
+                                    <div class="key-item-d10 key-item-3" style="background-image: url('./assets/images/barcode.jpg'); background-position: center; background-size: cover;">
+                                        <div class="img-bg">
+                                            <img loading="lazy" src="./assets/images/barcode.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
