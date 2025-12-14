@@ -2,7 +2,7 @@
             $currentPage = basename($_SERVER['PHP_SELF'], ".php"); 
         ?>
         <header class="tf-header-d10">
-            <div style="position: relative; margin-left: auto; margin-right: auto; padding-right: 12px; padding-left: 12px; width: 834px; max-width: 834px;">
+            <div class="container-d10-new">
                 <div class="header-inner">
                     <a href="./" class="d10-logo ps-3">
                         <img loading="lazy" width="30" height="30" src="./assets/images/smartmenu-icon-dark.svg" alt="Logo">

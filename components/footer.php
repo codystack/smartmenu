@@ -6,11 +6,13 @@
                         <a href="./" class="d10-logo-footer">
                             <img loading="lazy" width="169" height="36" src="./assets/images/smartmenu-icon-dark.svg" alt="Logo">
                         </a>
+                        <a href="./" class="d10-logo-footer d-block d-md-none">
+                            <img loading="lazy" width="250" src="./assets/images/smartmenu-dark.svg" alt="Logo">
+                        </a>
                         <div class="footer-link-wrap tf-grid-layout sm-col-3">
 
                             <div class="footer-col-block">
-                                <p
-                                    class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
+                                <p class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
                                     Quick Links
                                 </p>
                                 <div class="tf-collapse-content">
@@ -24,8 +26,7 @@
                             </div>
 
                             <div class="footer-col-block">
-                                <p
-                                    class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
+                                <p class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
                                     Socials</p>
                                 <div class="tf-collapse-content">
                                     <ul class="footer-menu-list">
@@ -38,8 +39,7 @@
                             </div>
 
                             <div class="footer-col-block footer-sub-form">
-                                <p
-                                    class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
+                                <p class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
                                     Reach Us</p>
                                 <div class="tf-collapse-content">
                                     <div class="footer-menu-list">
