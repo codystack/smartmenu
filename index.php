@@ -36,7 +36,7 @@ include "./components/navbar.php";
             </section>
         </div>
 
-        <!-- Section Key Features -->
+        <!-- Features -->
         <section class="seciton-key-features-d10 section-fix-scroll flat-spacing-d10-4">
             <div class="sticky-wrap">
                 <div class="container-d10">
@@ -198,106 +198,36 @@ include "./components/navbar.php";
                 </div>
             </div>
         </section>
-        <!-- /Section Key Features -->
+        <!-- Features -->
 
-        <!-- Seciton Integration -->
-        <section class="section-integration-d10">
-            <div class="container-d10">
-                <div class="section-integration-content  gap-24">
-                    <p class="text-section text-body-4 color-neu-900 wow fadeZoom">
-                        Trusted by Industry -
-                        <br>Leading Companies Worldwide
-                    </p>
-                    <div class="infiniteSlide-partner_wrap infiniteslide-d10">
-                        <div class="infiniteSlide" data-clone="3" data-style="right">
-                            <!-- clone 1 -->
-                            <div class="item-brand">
-                                <img loading="lazy" src="./assets/images/brand/brand-1.svg" alt="Image">
-                            </div>
-                            <div class="item-brand">
-                                <img loading="lazy" src="./assets/images/brand/brand-2.svg" alt="Image">
-                            </div>
-                            <div class="item-brand">
-                                <img loading="lazy" src="./assets/images/brand/brand-3.svg" alt="Image">
-                            </div>
-                            <div class="item-brand">
-                                <img loading="lazy" src="./assets/images/brand/brand-4.svg" alt="Image">
-                            </div>
-                            <div class="item-brand">
-                                <img loading="lazy" src="./assets/images/brand/brand-5.svg" alt="Image">
-                            </div>
-                            <div class="item-brand">
-                                <img loading="lazy" src="./assets/images/brand/brand-6.svg" alt="Image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Seciton Integration -->
+        <?php include "./components/clients.php"; ?>
 
-        <!-- Section Video -->
-        <section class="section-video-d10 flat-spacing-d10-1">
+        <!-- Video -->
+        <section class="section-video-d10 flat-spacing-d10-1 pb-0">
             <div class="container-d10">
                 <div class="financial-video mb-48">
-                    <video class="video" muted="" autoplay="" loop="" playsinline="">
-                        <source src="https://multi-demo.vercel.app/demo-financial/./assets/images/video/city.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="section-video-content d-flex justify-content-between flex-wrap gap-24">
-                    <div class="left-content">
-                        <div class="title text-body-1 fw-medium mb-24 color-neu-900 wow fadeZoom">
-                            Loved & trusted by +600,000 businesses.
-                        </div>
-                        <a href="#" class="tf-btn-d10-arrow-2 wow fadeZoom">
-                            <span class="fw-medium">Read Our Reviews</span>
-                            <i class="icon-long-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="right-content">
-                        <div class="title text-uppercase fw-bold color-neu-900 mb-10 wow fadeZoom">
-                            trustpilot
-                        </div>
-                        <div class="rating-d10 mb-8 wow fadeZoom">
-                            <i class="icon-star-solid"></i>
-                            <i class="icon-star-solid"></i>
-                            <i class="icon-star-solid"></i>
-                            <i class="icon-star-solid"></i>
-                            <i class="icon-star-solid"></i>
-                        </div>
-                        <div class="bottom-content d-flex gap-8 wow fadeZoom">
-                            <p class="text-caption"><span>trustscore</span> <span class="fw-semibold">4.8</span></p>
-                            <span class="line"></span>
-                            <p class="text-caption  "><span class="fw-semibold">40,000</span> <span>reviews</span></p>
-                        </div>
-                    </div>
+                    <iframe width="1500" height="800" src="https://www.youtube.com/embed/6RFFNnonzxI?si=MD9FkuYSdg2yB5sb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
-        <!-- /Section Video -->
+        <!-- Video -->
 
         <!-- Section Benefit -->
         <section class="seciton-benefit-d10 flat-spacing-d10-3 pb-0">
             <div class="container-d10">
                 <div class="seciton-benefit-top d-flex align-items-end justify-content-between gap-24 mb-lg-74">
                     <div class="heading-section-d10">
-                        <span class="tag-badget-d10 mb-24 wow fadeZoom">
-                            <span class="dot"></span>
-                            <span class="text-caption">Benefit</span>
-                        </span>
                         <h2 class="title wow fadeZoom">
-                            Smarter Spending,
-                            <br>Greater <span>Rewards</span>
+                            Premium SmartMenu<br> QR Code <span>Holders</span>
                         </h2>
                     </div>
                     <div class="section-content">
                         <div class="text-body-3 color-neu-600 mb-32 wow fadeZoom">
-                            Experience smarter payments, exclusive rewards,
-                            <br>and complete control every day.
+                            High-quality display options designed to enhance <br>your digital menu, available in our online shop.
                         </div>
-                        <a href="about-us.html" class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
+                        <a href="https://shop.smartmenu.africa/" target="_blank" class="tf-btn-d10 style-bg-neu-900 hover-bg-primay-600 wow fadeZoom">
                             <span class="text_btn fw-medium">
-                                Get Started Free
+                                Visit Our Shop
                             </span>
                             <span class="icon">
                                 <i class="icon-angle-right-solid"></i>
@@ -311,111 +241,34 @@ include "./components/navbar.php";
                 <div class="infiniteSlide-partner_wrap benefit-infiniteSlide">
                     <div class="infiniteSlide gap-16" data-clone="3" data-style="right">
                         <!-- clone 1 -->
-                        <div class="item-infiniteslide">
-                            <div class="box-benefit-item-d10">
-                                <div class="image img-bg">
-                                    <img src="./assets/images/item/bg-box-benefit1.jpg" alt="">
-                                </div>
-                                <div class="box-content">
-                                    <div class="sub-title text-body-3 fw-medium mb-12">Your Money, Just Smarter
-                                    </div>
-                                    <h6 class="title letter-space--1">
-                                        Fast. Simple.
-                                        <br>Secure. All in One App.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-infiniteslide">
-                            <div class="box-user-benefit-d10">
-                                <div class="image">
-                                    <img loading="lazy" width="120" height="120"
-                                        src="./assets/images/avatar/avatar-box-benefit.jpg" alt="Image">
-                                </div>
-                                <div class="content-box">
-                                    <div class="desc text-body-3 ">
-                                        Our product finally feels intuitive and beautifully aligned with our
-                                        brand.We were
-                                        struggling to create a unified design experience until we worked with Botly.
-                                        The team
-                                        not only brought consistency.
-                                    </div>
-                                    <div class="name-user">
-                                        <a href="#" class="name text-body-4 fw-medium">Liam Chen</a>
-                                        <div class="sub-name text-body-4 fw-medium">
-                                            Product Manager, NovaStack
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-infiniteslide">
-                            <div class="box-benefit-item-d10 style-2">
-                                <div class="big-number">
-                                    64 %
-                                </div>
-                                <div class="image img-absolute">
-                                    <img src="./assets/images/item/item-box-benefit2.png" alt="">
-                                </div>
-                                <div class="box-content">
-                                    <div class="title text-body-1 fw-medium">Empowering <br>the Way You Pay</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-infiniteslide">
-                            <div class="box-chart-d10">
-                                <div class="box-content">
-                                    <div class="top-box">
-                                        <div class="left">
-                                            <p class="text-body-4 color-neu-900">Transactions</p>
-                                            <p class="text-body-2 fw-medium number">
-                                                85%
-                                            </p>
-                                        </div>
-                                        <div class="right">
-                                            <div class="chart-time-select">
-                                                <select>
-                                                    <option value="1">Day</option>
-                                                    <option value="2" selected>Month</option>
-                                                    <option value="3">Year</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="chatr">
-                                        <img loading="lazy" width="175" height="99" src="./assets/images/item/benefit-chart.png"
-                                            alt="Image">
-                                    </div>
-                                </div>
+                         <div class="item-infiniteslide">
+                            <div class="img-slider-benefit img-1">
+                                <img loading="lazy" width="422" height="322" src="./assets/images/menu1.webp" alt="Image">
                             </div>
                         </div>
                         <div class="item-infiniteslide">
                             <div class="img-slider-benefit img-1">
-                                <img loading="lazy" width="422" height="322" src="./assets/images/item/img-benefit.jpg"
-                                    alt="Image">
+                                <img loading="lazy" width="422" height="322" src="./assets/images/menu2.webp" alt="Image">
                             </div>
                         </div>
                         <div class="item-infiniteslide">
-                            <div class="box-chart-d10 style-2">
-                                <div class="box-content">
-                                    <img class="img-content" loading="lazy" width="218" height="249"
-                                        src="./assets/images/item/box-chart-2.jpg" alt="Image">
-                                </div>
+                            <div class="img-slider-benefit img-1">
+                                <img loading="lazy" width="422" height="322" src="./assets/images/menu3.webp" alt="Image">
                             </div>
                         </div>
                         <div class="item-infiniteslide">
-                            <div class="img-slider-benefit img-2">
-                                <img loading="lazy" width="294" height="322" src="./assets/images/item/img-benefit-2.jpg"
-                                    alt="Image">
+                            <div class="img-slider-benefit img-1">
+                                <img loading="lazy" width="422" height="322" src="./assets/images/menu4.webp" alt="Image">
                             </div>
                         </div>
                         <div class="item-infiniteslide">
-                            <div class="box-chart-d10 style-3">
-                                <div class="chart">
-                                    <img loading="lazy" width="227" height="215" src="./assets/images/item/benefit-chart-3.png"
-                                        alt="Image">
-                                    <p>$ <span>90</span> .00</p>
-                                </div>
+                            <div class="img-slider-benefit img-1">
+                                <img loading="lazy" width="422" height="322" src="./assets/images/menu5.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="item-infiniteslide">
+                            <div class="img-slider-benefit img-1">
+                                <img loading="lazy" width="422" height="322" src="./assets/images/menu6.webp" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -423,6 +276,234 @@ include "./components/navbar.php";
             </div>
         </section>
         <!-- /Section Benefit -->
+
+
+        <!-- Section How It Work -->
+        <section class="section-how-d10 flat-spacing-d10-1">
+            <div class="container-d10">
+                <div class="heading-section-d10 style-center mb-lg-76">
+                    <span class="tag-badget-d10 mb-24 wow fadeZoom">
+                        <span class="dot"></span>
+                        <span class="text-caption">How It Work</span>
+                    </span>
+                    <h2 class="title wow fadeZoom">
+                        Simple Steps to
+                        <br><span>Get Started</span>
+                    </h2>
+                </div>
+                <div class="item-how-d10 mb-lg-80 mb-0">
+                    <a href="feature.html" class="image wow fadeInLeft">
+                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-1.jpg" alt="Image">
+                    </a>
+                    <div class="item-content">
+                        <p class="sub-title text-caption wow fadeInRight">
+                            Sign Up
+                        </p>
+                        <h4 class="title wow fadeInRight"><a href="feature.html">Quick Registration, <br>Easy Start</a>
+                        </h4>
+                        <div class="desc text-body-3 wow fadeInRight">
+                            Create your account in just a few taps and verify
+                            <br>securely within minutes
+                        </div>
+                        <a href="feature.html"
+                            class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInRight">
+                            <span class="text_btn fw-medium">
+                                Explore Services
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item-how-d10 style-reverse mb-lg-80 mb-0">
+                    <a href="feature.html" class="image wow fadeInRight">
+                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-2.jpg" alt="Image">
+                    </a>
+                    <div class="item-content">
+                        <p class="sub-title text-caption wow fadeInLeft">
+                            Get Approved
+                        </p>
+                        <h4 class="title wow fadeInLeft"><a href="feature.html">Fast Approval, Full Security</a></h4>
+                        <div class="desc text-body-3 wow fadeInLeft">
+                            Our smart system reviews your details instantly —
+                            <br>no paperwork, no waiting
+                        </div>
+                        <a href="feature.html"
+                            class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInLeft">
+                            <span class="text_btn fw-medium">
+                                Explore Services
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item-how-d10">
+                    <a href="feature.html" class="image wow fadeInLeft">
+                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-3.jpg" alt="Image">
+                    </a>
+                    <div class="col-md-6">
+                        <div class="item-content">
+                            <p class="sub-title text-caption wow fadeInRight">
+                                Start Spending
+                            </p>
+                            <h4 class="title wow fadeInRight"><a href="feature.html">Activate and <br>Enjoy Rewards</a>
+                            </h4>
+                            <div class="desc text-body-3 wow fadeInRight">
+                                Add your card to the app, shop anywhere, and
+                                <br>earn cashback on every purchase
+                            </div>
+                            <a href="feature.html"
+                                class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInRight">
+                                <span class="text_btn fw-medium">
+                                    Explore Services
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section How It Work -->
+
+
+        <!-- Section Testimonials -->
+        <section class="section-testimonials-d10 flat-spacing-d10-1 page-home">
+            <div class="container-d10">
+                <div class="sw-testimonials-d10 tf-btn-swiper-main">
+                    <div class="img-bg">
+                        <img loading="lazy" width="1312" height="512" src="./assets/images/section/bg-tes-1.jpg" alt="Image">
+                    </div>
+                    <div class="btn-swiper nav-prev-swiper">
+                        <i class="icon icon-arrow-caret-left"></i>
+                    </div>
+                    <div dir="ltr" class="swiper tf-swiper" data-preview="1" data-tablet="1" data-mobile-sm="1"
+                        data-mobile="1" data-space-lg="0" data-space-md="0" data-space="0" data-pagination="1"
+                        data-pagination-sm="1" data-pagination-md="1" data-pagination-lg="1">
+                        <div class="swiper-wrapper">
+                            <!-- item 1 -->
+                            <div class="swiper-slide">
+                                <div class="testimonials-item-d10">
+                                    <div class="rating-d10">
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                    </div>
+                                    <div class="h3 title">
+                                        “I’ve never managed my finances this easily before. The app keeps everything
+                                        organized,
+                                        secure, and
+                                        perfectly in sync with my lifestyle”
+                                    </div>
+                                    <div
+                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
+
+                                        <a href="#" class="image">
+                                            <img loading="lazy" width="56" height="56"
+                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
+                                        </a>
+                                        <div class="user-content">
+                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
+                                            <a href="#" class="position">Financial Analyst</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item 2 -->
+                            <div class="swiper-slide">
+                                <div class="testimonials-item-d10">
+                                    <div class="rating-d10">
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                    </div>
+                                    <div class="h3 title">
+                                        “Getting my card approved took less than five minutes, and I started earning
+                                        cashback right after. Super smooth experience”
+                                    </div>
+                                    <div
+                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
+
+                                        <a href="#" class="image">
+                                            <img loading="lazy" width="56" height="56"
+                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
+                                        </a>
+                                        <div class="user-content">
+                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
+                                            <a href="#" class="position">Financial Analyst</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item 3 -->
+                            <div class="swiper-slide">
+                                <div class="testimonials-item-d10">
+                                    <div class="rating-d10">
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                    </div>
+                                    <div class="h3 title">
+                                        “The interface is clean and intuitive. I can track expenses, pay bills, and
+                                        manage rewards without any hassle”
+                                    </div>
+                                    <div
+                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
+
+                                        <a href="#" class="image">
+                                            <img loading="lazy" width="56" height="56"
+                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
+                                        </a>
+                                        <div class="user-content">
+                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
+                                            <a href="#" class="position">Financial Analyst</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item 4 -->
+                            <div class="swiper-slide">
+                                <div class="testimonials-item-d10">
+                                    <div class="rating-d10">
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                        <i class="icon-star-solid fs-24"></i>
+                                    </div>
+                                    <div class="h3 title">
+                                        “I’ve never managed my finances this easily before. The app keeps everything
+                                        organized,
+                                        secure, and
+                                        perfectly in sync with my lifestyle”
+                                    </div>
+                                    <div
+                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
+
+                                        <a href="#" class="image">
+                                            <img loading="lazy" width="56" height="56"
+                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
+                                        </a>
+                                        <div class="user-content">
+                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
+                                            <a href="#" class="position">Financial Analyst</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sw-dot-pagination tf-sw-pagination d-lg-none"></div>
+                    </div>
+                    <div class="btn-swiper nav-next-swiper">
+                        <i class="icon icon-arrow-caret-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section Testimonials -->
+
 
         <!-- Section More Additional-->
         <section class="section-more-additional-d10 flat-spacing-d10-3">
@@ -782,535 +863,6 @@ include "./components/navbar.php";
         </section>
         <!-- /Section App -->
 
-        <!-- Section How It Work -->
-        <section class="section-how-d10 flat-spacing-d10-1">
-            <div class="container-d10">
-                <div class="heading-section-d10 style-center mb-lg-76">
-                    <span class="tag-badget-d10 mb-24 wow fadeZoom">
-                        <span class="dot"></span>
-                        <span class="text-caption">How It Work</span>
-                    </span>
-                    <h2 class="title wow fadeZoom">
-                        Simple Steps to
-                        <br><span>Get Started</span>
-                    </h2>
-                </div>
-                <div class="item-how-d10 mb-lg-80 mb-0">
-                    <a href="feature.html" class="image wow fadeInLeft">
-                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-1.jpg" alt="Image">
-                    </a>
-                    <div class="item-content">
-                        <p class="sub-title text-caption wow fadeInRight">
-                            Sign Up
-                        </p>
-                        <h4 class="title wow fadeInRight"><a href="feature.html">Quick Registration, <br>Easy Start</a>
-                        </h4>
-                        <div class="desc text-body-3 wow fadeInRight">
-                            Create your account in just a few taps and verify
-                            <br>securely within minutes
-                        </div>
-                        <a href="feature.html"
-                            class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInRight">
-                            <span class="text_btn fw-medium">
-                                Explore Services
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item-how-d10 style-reverse mb-lg-80 mb-0">
-                    <a href="feature.html" class="image wow fadeInRight">
-                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-2.jpg" alt="Image">
-                    </a>
-                    <div class="item-content">
-                        <p class="sub-title text-caption wow fadeInLeft">
-                            Get Approved
-                        </p>
-                        <h4 class="title wow fadeInLeft"><a href="feature.html">Fast Approval, Full Security</a></h4>
-                        <div class="desc text-body-3 wow fadeInLeft">
-                            Our smart system reviews your details instantly —
-                            <br>no paperwork, no waiting
-                        </div>
-                        <a href="feature.html"
-                            class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInLeft">
-                            <span class="text_btn fw-medium">
-                                Explore Services
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item-how-d10">
-                    <a href="feature.html" class="image wow fadeInLeft">
-                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-3.jpg" alt="Image">
-                    </a>
-                    <div class="col-md-6">
-                        <div class="item-content">
-                            <p class="sub-title text-caption wow fadeInRight">
-                                Start Spending
-                            </p>
-                            <h4 class="title wow fadeInRight"><a href="feature.html">Activate and <br>Enjoy Rewards</a>
-                            </h4>
-                            <div class="desc text-body-3 wow fadeInRight">
-                                Add your card to the app, shop anywhere, and
-                                <br>earn cashback on every purchase
-                            </div>
-                            <a href="feature.html"
-                                class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInRight">
-                                <span class="text_btn fw-medium">
-                                    Explore Services
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section How It Work -->
-
-        <!-- Section Testimonials -->
-        <section class="section-testimonials-d10 flat-spacing-d10-1 page-home">
-            <div class="container-d10">
-                <div class="sw-testimonials-d10 tf-btn-swiper-main">
-                    <div class="img-bg">
-                        <img loading="lazy" width="1312" height="512" src="./assets/images/section/bg-tes-1.jpg" alt="Image">
-                    </div>
-                    <div class="btn-swiper nav-prev-swiper">
-                        <i class="icon icon-arrow-caret-left"></i>
-                    </div>
-                    <div dir="ltr" class="swiper tf-swiper" data-preview="1" data-tablet="1" data-mobile-sm="1"
-                        data-mobile="1" data-space-lg="0" data-space-md="0" data-space="0" data-pagination="1"
-                        data-pagination-sm="1" data-pagination-md="1" data-pagination-lg="1">
-                        <div class="swiper-wrapper">
-                            <!-- item 1 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “I’ve never managed my finances this easily before. The app keeps everything
-                                        organized,
-                                        secure, and
-                                        perfectly in sync with my lifestyle”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- item 2 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “Getting my card approved took less than five minutes, and I started earning
-                                        cashback right after. Super smooth experience”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- item 3 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “The interface is clean and intuitive. I can track expenses, pay bills, and
-                                        manage rewards without any hassle”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- item 4 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “I’ve never managed my finances this easily before. The app keeps everything
-                                        organized,
-                                        secure, and
-                                        perfectly in sync with my lifestyle”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sw-dot-pagination tf-sw-pagination d-lg-none"></div>
-                    </div>
-                    <div class="btn-swiper nav-next-swiper">
-                        <i class="icon icon-arrow-caret-right"></i>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section Testimonials -->
-
-        <!-- Section Statistic -->
-        <section class="section-statistic-d10 flat-spacing-d10-1">
-            <div class="container-d10">
-                <div class="heading-section-d10 mb-lg-76">
-                    <span class="tag-badget-d10 mb-24 wow fadeZoom">
-                        <span class="dot"></span>
-                        <span class="text-caption">Statistic</span>
-                    </span>
-                    <h2 class="title wow fadeZoom">
-                        Trusted Numbers
-                        <br>Behind Our <span>Growth</span>
-                    </h2>
-                </div>
-                <div class="row rg-24">
-                    <div class="col-lg-7">
-                        <div class="list-box-statistic d-flex align-items-center justify-content-between gap-16">
-                            <div class="list-box-left">
-                                <div
-                                    class="box-statistic-d10 box-1 d-flex align-items-center justify-content-between gap-6 flex-wrap mb-16">
-                                    <div class="list-img d-flex align-items-center">
-                                        <div class="image img-1">
-                                            <img loading="lazy" width="25" height="25"
-                                                src="./assets/images/avatar/img-box-statistic-1.jpg" alt="Image">
-                                        </div>
-                                        <div class="image img-2">
-                                            <img loading="lazy" width="43" height="43"
-                                                src="./assets/images/avatar/img-box-statistic-2.jpg" alt="Image">
-                                        </div>
-                                        <div class="image img-3">
-                                            <img loading="lazy" width="29" height="29"
-                                                src="./assets/images/avatar/img-box-statistic-3.jpg" alt="Image">
-                                        </div>
-                                        <div class="image img-2">
-                                            <img loading="lazy" width="43" height="43"
-                                                src="./assets/images/avatar/img-box-statistic-4.jpg" alt="Image">
-                                        </div>
-                                        <div class="image img-1">
-                                            <img loading="lazy" width="25" height="25"
-                                                src="./assets/images/avatar/img-box-statistic-5.jpg" alt="Image">
-                                        </div>
-                                    </div>
-                                    <p class="text-spacing fw-medium color-neu-900">40+ PARTNERS</p>
-                                </div>
-
-                                <div class="box-statistic-d10 box-2">
-                                    <div class="text text-body-2">
-                                        Revenue reached over
-                                        <br>2.5 million dollars from credit
-                                        <br>card services.
-                                    </div>
-
-                                    <div class="text-bottom">
-                                        <div class="text-bottom-left">
-                                            <div class="left">
-                                                <p class="h1 d10-wg-counter wg-counter mb-12 letter-space--1">
-                                                    $<span class="odometer font-archivo" data-number="2.5">0</span>M
-                                                </p>
-                                                <p class="sub-text fw-medium">
-                                                    Revenue geenrated
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p class="fs-36 fw-medium">+</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="list-box-right">
-                                <div class="box-statistic-d10 box-2 mb-16">
-                                    <div class="text text-body-2">
-                                        Completed over 50 global
-                                        <br>credit card projects
-                                    </div>
-
-                                    <div class="text-bottom d-flex justify-content-between gap-16">
-                                        <div class="text-bottom-left">
-                                            <div class="left">
-                                                <p class="h1 d10-wg-counter wg-counter mb-12 letter-space--1">
-                                                    <span class="odometer font-archivo" data-number="50">0</span>
-                                                </p>
-                                                <p class="sub-text fw-medium">
-                                                    Project
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p class="fs-36 fw-medium">+</p>
-                                            </div>
-                                        </div>
-                                        <div class="text-bottom-right">
-                                            <p class="sub-text text-caption">
-                                                Numbers That
-                                                <br>Define Our Impact
-                                            </p>
-                                            <p class="text-body-4 color-neu-900">
-                                                Reliable Stats
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="box-statistic-d10 box-3 d-flex align-items-center gap-16">
-                                    <div class="dot"></div>
-                                    <p class="text-spacing fw-medium color-neu-600">AVAILABLE JUNE</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5">
-                        <div class="box-statistic-d10 box-4">
-                            <div class="text text-body-2 color-neu-900">
-                                Launched new service in June,
-                                <br>offering superior credit card experience.
-                            </div>
-
-                            <div class="svg-arrow arrow-animation">
-                                <svg class="anim-svg" width="301" height="204" viewBox="0 0 301 204" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-
-                                    <mask id="revealMask">
-                                        <rect id="maskRect" x="0" y="0" width="0" height="204" fill="#fff" />
-                                    </mask>
-
-                                    <path mask="url(#revealMask)" opacity="0.4"
-                                        d="M281.364 0C292.209 7.11659e-07 301.001 8.79184 301.001 19.6367V117.205C301.001 125.339 294.407 131.932 286.273 131.932C278.14 131.932 271.546 125.338 271.546 117.205V61.2422L185.924 146.864C168.67 164.118 140.695 164.118 123.44 146.864L92.0732 115.496C86.3219 109.745 76.9965 109.745 71.2451 115.496L-12.8594 199.601C-18.6107 205.352 -27.9352 205.352 -33.6865 199.601C-39.4378 193.849 -39.4378 184.525 -33.6865 178.773L50.418 94.6689C67.6721 77.415 95.6463 77.4149 112.9 94.6689L144.268 126.036C150.019 131.787 159.344 131.787 165.096 126.036L261.678 29.4541H185.637C177.503 29.4539 170.91 22.8609 170.91 14.7275C170.91 6.59403 177.503 0.000245341 185.637 0H281.364Z"
-                                        fill="url(#paint0_linear_180_5244)" />
-
-                                    <defs>
-                                        <linearGradient id="paint0_linear_180_5244" x1="301.001" y1="2.54026e-05"
-                                            x2="-49.9998" y2="204.001" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="#13B118" />
-                                            <stop offset="1" stop-color="#E6EEE7" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-
-                            <div class="tex-bottom d-flex justify-content-between gap-16">
-                                <div class="text-bottom-left">
-                                    <p class="fs-36 lh-40"><span
-                                            class="h1 color-neu-900 letter-space--1">4.8</span><span
-                                            class="number-small">/5</span></p>
-                                </div>
-                                <div class="text-bottom-right">
-                                    <div class="rating-d10 gap-6 mb-12">
-                                        <i class="icon-star-solid"></i>
-                                        <i class="icon-star-solid"></i>
-                                        <i class="icon-star-solid"></i>
-                                        <i class="icon-star-solid"></i>
-                                        <i class="icon-star-solid"></i>
-                                    </div>
-                                    <p class="fw-medium text-caption color-neu-600">
-                                        TRUSTED BY
-                                        <br>CLIENTS WORLWIDE
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section Statistic -->
-
-        <!-- Section Blog -->
-        <section class="section-blog-d10 tf-btn-swiper-main flat-spacing-d10-5">
-            <div class="container-d10">
-                <div class="heading-section-d10 mb-lg-76 d-flex align-items-end justify-content-between">
-                    <div class="left-heading">
-                        <span class="tag-badget-d10 mb-24 wow fadeZoom">
-                            <span class="dot"></span>
-                            <span class="text-caption">Blog</span>
-                        </span>
-                        <h2 class="title wow fadeZoom">
-                            Latest Trends in
-                            <br><span>Finance & Tech</span>
-                        </h2>
-                    </div>
-                    <div class="right-heading d-none d-lg-block">
-                        <div class="list-btn d-flex align-items-center gap-24">
-                            <div class="nav-btn nav-prev-swiper">
-                                <i class="icon icon-arrow-caret-left"></i>
-                            </div>
-                            <div class="nav-btn nav-next-swiper">
-                                <i class="icon icon-arrow-caret-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div dir="ltr" class="d10-sw-blog swiper tf-swiper" data-preview="3.55" data-tablet="3" data-mobile-sm="2"
-                data-mobile="1" data-space-lg="16" data-space-md="10" data-space="10" data-pagination="1"
-                data-pagination-sm="2" data-pagination-md="2" data-pagination-lg="1">
-                <div class="swiper-wrapper">
-                    <!-- item 1 -->
-                    <div class="swiper-slide">
-                        <div class="article-blog-d10 style-small hover-img">
-                            <a href="blog-post.html" class="image img-style">
-                                <img loading="lazy" width="421" height="360" src="./assets/images/blog/blog-post-10.jpg"
-                                    alt="Image">
-                            </a>
-                            <div class="article-content">
-                                <div class="meta-tag d-flex align-items-center gap-8">
-                                    <a class="text-caption d10-entry-tag">Finance Tips</a>
-                                    <a class="text-caption d10-time-read">7 mins read</a>
-                                </div>
-                                <a href="blog-post.html" class="name-blog fw-medium lh-24">5 Ways to Maximize Your
-                                    Credit <br>Card Rewards</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item 2 -->
-                    <div class="swiper-slide">
-                        <div class="article-blog-d10 style-small hover-img">
-                            <a href="blog-post.html" class="image img-style">
-                                <img loading="lazy" width="421" height="360" src="./assets/images/blog/blog-post-11.jpg"
-                                    alt="Image">
-                            </a>
-                            <div class="article-content">
-                                <div class="meta-tag d-flex align-items-center gap-8">
-                                    <a class="text-caption d10-entry-tag">Technology</a>
-                                    <a class="text-caption d10-time-read">10 mins read</a>
-                                </div>
-                                <a href="blog-post.html" class="name-blog fw-medium lh-24">How Mobile Banking Apps
-                                    Are
-                                    Redefining the Modern Financial Experience</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item 3 -->
-                    <div class="swiper-slide">
-                        <div class="article-blog-d10 style-small hover-img">
-                            <a href="blog-post.html" class="image img-style">
-                                <img loading="lazy" width="421" height="360" src="./assets/images/blog/blog-post-12.jpg"
-                                    alt="Image">
-                            </a>
-                            <div class="article-content">
-                                <div class="meta-tag d-flex align-items-center gap-8">
-                                    <a class="text-caption d10-entry-tag">Technology</a>
-                                    <a class="text-caption d10-time-read">10 mins read</a>
-                                </div>
-                                <a href="blog-post.html" class="name-blog fw-medium lh-24">The Rise of Contactless
-                                    Payments and What It Means for Consumers</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item 4 -->
-                    <div class="swiper-slide">
-                        <div class="article-blog-d10 style-small hover-img">
-                            <a href="blog-post.html" class="image img-style">
-                                <img loading="lazy" width="421" height="360" src="./assets/images/blog/blog-post-13.jpg"
-                                    alt="Image">
-                            </a>
-                            <div class="article-content">
-                                <div class="meta-tag d-flex align-items-center gap-8">
-                                    <a class="text-caption d10-entry-tag">Cybersecurity</a>
-                                    <a class="text-caption d10-time-read">3 mins read</a>
-                                </div>
-                                <a href="blog-post.html" class="name-blog fw-medium lh-24">Why Security Matters:
-                                    Protecting Your Money and Data in Every Transaction</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item 5 -->
-                    <div class="swiper-slide">
-                        <div class="article-blog-d10 style-small hover-img">
-                            <a href="blog-post.html" class="image img-style">
-                                <img loading="lazy" width="421" height="360" src="./assets/images/blog/blog-post-14.jpg"
-                                    alt="Image">
-                            </a>
-                            <div class="article-content">
-                                <div class="meta-tag d-flex align-items-center gap-8">
-                                    <a class="text-caption d10-entry-tag">E-commerce</a>
-                                    <a class="text-caption d10-time-read">4 mins read</a>
-                                </div>
-                                <a href="blog-post.html" class="name-blog fw-medium lh-24">Top 7 Security Practices
-                                    Every Online Shopper Should Know in 2025</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item 6 -->
-                    <div class="swiper-slide">
-                        <div class="article-blog-d10 style-small hover-img">
-                            <a href="blog-post.html" class="image img-style">
-                                <img loading="lazy" width="421" height="360" src="./assets/images/blog/blog-post-15.jpg"
-                                    alt="Image">
-                            </a>
-                            <div class="article-content">
-                                <div class="meta-tag d-flex align-items-center gap-8">
-                                    <a class="text-caption d10-entry-tag">Fintech Trends</a>
-                                    <a class="text-caption d10-time-read">5 mins read</a>
-                                </div>
-                                <a href="blog-post.html" class="name-blog fw-medium lh-24">Smart Budgeting Habits
-                                    Every Young Professional Should Build for Financial Freedom</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sw-dot-pagination tf-sw-pagination d-lg-none"></div>
-            </div>
-        </section>
-        <!-- /Section Blog -->
 
         <!-- Section Banner Contact -->
         <section class="section-banner-contact-d10">
@@ -1375,4 +927,6 @@ include "./components/navbar.php";
         </section>
 
 
-<?php include "./components/footer.php"; ?>
+<?php 
+include "./components/footer.php";
+?>
