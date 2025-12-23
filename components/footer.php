@@ -1,7 +1,7 @@
         <!-- Footer -->
         <footer class="footer-d10">
             <div class="container-d10">
-                <div class="footer-top">
+                <div class="footer-top text-center">
                     <div class="footer-content">
                         <a href="./" class="d10-logo-footer">
                             <img loading="lazy" width="169" height="36" src="./assets/images/smartmenu-icon-dark.svg" alt="Logo">
@@ -9,55 +9,13 @@
                         <a href="./" class="d10-logo-footer d-block d-md-none">
                             <img loading="lazy" width="250" src="./assets/images/smartmenu-dark.svg" alt="Logo">
                         </a>
-                        <div class="footer-link-wrap tf-grid-layout sm-col-3">
-
-                            <div class="footer-col-block">
-                                <p class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
-                                    Quick Links
-                                </p>
-                                <div class="tf-collapse-content">
-                                    <ul class="footer-menu-list">
-                                        <li><a href="index.html" class="text-body-3 link-2">Home</a></li>
-                                        <li><a href="about-us.html" class="text-body-3 link-2 mt-16">About</a></li>
-                                        <li><a href="feature.html" class="text-body-3 link-2 mt-16">Services</a></li>
-                                        <li><a href="blog.html" class="text-body-3 link-2 mt-16">Blog</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="footer-col-block">
-                                <p class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
-                                    Socials</p>
-                                <div class="tf-collapse-content">
-                                    <ul class="footer-menu-list">
-                                        <li><a href="#" class="text-body-3 link-2">Facebook</a></li>
-                                        <li><a href="#" class="text-body-3 link-2 mt-16">Linkedin</a></li>
-                                        <li><a href="#" class="text-body-3 link-2 mt-16">X</a></li>
-                                        <li><a href="#" class="text-body-3 link-2 mt-16">Instagram</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="footer-col-block footer-sub-form">
-                                <p class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
-                                    Reach Us</p>
-                                <div class="tf-collapse-content">
-                                    <div class="footer-menu-list">
-                                        <div class="title text-body-1 fw-medium mb-8">Subscribe Newsletter</div>
-                                        <div class="text-form-sub text-body-4 mb-24">Sign up to searing weekly
-                                            newsletter to get the latest
-                                            updates.
-                                        </div>
-                                        <form class="form-sub-d10 mb-xl-0">
-                                            <fieldset>
-                                                <input type="email" placeholder="Enter your email" required>
-                                                <button type="submit" class="btn-submit-d10"><i
-                                                        class="icon-long-arrow-alt-right-solid"></i></button>
-                                            </fieldset>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="footer-content">
+                        <div class="midder-content">
+                            <ul class="d-flex align-items-center gap-24">
+                                <li><a href="#">Privacy Policies</a></li>
+                                <li><a href="#">Terms of use</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

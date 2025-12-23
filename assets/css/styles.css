@@ -30901,7 +30901,7 @@ ul.list-check li .icon {
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: var(--d10-bg-4);
+  background-color: #371168;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -31065,7 +31065,7 @@ ul.list-check li .icon {
 }
 @media (min-width: 1440px) {
   .footer-d10 .footer-top {
-    padding-right: 111px;
+    /* padding-right: 111px; */
   }
 }
 @media (max-width: 991px) {
