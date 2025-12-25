@@ -1,21 +1,41 @@
-        <!-- Footer -->
         <footer class="footer-d10">
             <div class="container-d10">
-                <div class="footer-top text-center">
+                <div class="footer-top">
                     <div class="footer-content">
-                        <a href="./" class="d10-logo-footer">
+                        <a href="./" class="d10-logo-footer d-none d-md-block">
                             <img loading="lazy" width="169" height="36" src="./assets/images/smartmenu-icon-dark.svg" alt="Logo">
                         </a>
-                        <a href="./" class="d10-logo-footer d-block d-md-none">
+                        <a href="./" class="d10-logo-footer d-block d-md-none text-center">
                             <img loading="lazy" width="250" src="./assets/images/smartmenu-dark.svg" alt="Logo">
                         </a>
-                    </div>
-                    <div class="footer-content">
-                        <div class="midder-content">
-                            <ul class="d-flex align-items-center gap-24">
-                                <li><a href="#">Privacy Policies</a></li>
-                                <li><a href="#">Terms of use</a></li>
-                            </ul>
+                        <div class="footer-link-wrap tf-grid-layout sm-col-3">
+
+                            <div class="footer-col-block pe-5 me-5">
+                                <p
+                                    class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
+                                    Quick Links
+                                </p>
+                                <div class="tf-collapse-content">
+                                    <ul class="footer-menu-list">
+                                        <li><a href="faq" class="text-body-3 link-2 mt-16">FAQ's</a></li>
+                                        <li><a href="terms" class="text-body-3 link-2 mt-16">Terms of use</a></li>
+                                        <li><a href="privacy" class="text-body-3 link-2 mt-16">Privacy policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="footer-col-block">
+                                <p
+                                    class="footer-heading footer-heading-mobile footer-heading-d10 text-body-3 fw-medium letter-space--1">
+                                    Socials</p>
+                                <div class="tf-collapse-content">
+                                    <ul class="footer-menu-list">
+                                        <li><a href="https://www.instagram.com/usesmartmenu/" target="_blank" class="text-body-3 link-2 mt-16">Instagram</a></li>
+                                        <li><a href="https://www.tiktok.com/@usesmartmenu" target="_blank" class="text-body-3 link-2 mt-16">Tiktok</a></li>
+                                        <li><a href="https://wa.me/+2348162680095?text=Hello,%20I%20would%20like%20to%20make%20an%20enquiry%20about%20SmartMenu.%20" target="_blank" class="text-body-3 link-2 mt-16">WhatsApp</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -28,6 +48,7 @@
                 </div>
             </div>
         </footer>
+
     </main>
 
 

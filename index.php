@@ -36,7 +36,7 @@ include "./components/navbar.php";
             </section>
         </div>
 
-        <!-- Features -->
+        
         <section class="seciton-key-features-d10 section-fix-scroll flat-spacing-d10-4">
             <div class="sticky-wrap">
                 <div class="container-d10">
@@ -198,11 +198,9 @@ include "./components/navbar.php";
                 </div>
             </div>
         </section>
-        <!-- Features -->
 
         <?php include "./components/clients.php"; ?>
 
-        <!-- Video -->
         <section class="section-video-d10 flat-spacing-d10-1 pb-0">
             <div class="container-d10">
                 <div class="financial-video mb-48">
@@ -210,9 +208,8 @@ include "./components/navbar.php";
                 </div>
             </div>
         </section>
-        <!-- Video -->
+        
 
-        <!-- Section Benefit -->
         <section class="seciton-benefit-d10 flat-spacing-d10-3 pb-0">
             <div class="container-d10">
                 <div class="seciton-benefit-top d-flex align-items-end justify-content-between gap-24 mb-lg-74">
@@ -237,7 +234,6 @@ include "./components/navbar.php";
                 </div>
             </div>
             <div class="seciton-benefit-bottom">
-
                 <div class="infiniteSlide-partner_wrap benefit-infiniteSlide">
                     <div class="infiniteSlide gap-16" data-clone="3" data-style="right">
                         <!-- clone 1 -->
@@ -275,278 +271,23 @@ include "./components/navbar.php";
                 </div>
             </div>
         </section>
-        <!-- /Section Benefit -->
+        
 
-
-        <!-- Section How It Work -->
-        <section class="section-how-d10 flat-spacing-d10-1">
-            <div class="container-d10">
-                <div class="heading-section-d10 style-center mb-lg-76">
-                    <span class="tag-badget-d10 mb-24 wow fadeZoom">
-                        <span class="dot"></span>
-                        <span class="text-caption">How It Work</span>
-                    </span>
-                    <h2 class="title wow fadeZoom">
-                        Simple Steps to
-                        <br><span>Get Started</span>
-                    </h2>
-                </div>
-                <div class="item-how-d10 mb-lg-80 mb-0">
-                    <a href="feature.html" class="image wow fadeInLeft">
-                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-1.jpg" alt="Image">
-                    </a>
-                    <div class="item-content">
-                        <p class="sub-title text-caption wow fadeInRight">
-                            Sign Up
-                        </p>
-                        <h4 class="title wow fadeInRight"><a href="feature.html">Quick Registration, <br>Easy Start</a>
-                        </h4>
-                        <div class="desc text-body-3 wow fadeInRight">
-                            Create your account in just a few taps and verify
-                            <br>securely within minutes
-                        </div>
-                        <a href="feature.html"
-                            class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInRight">
-                            <span class="text_btn fw-medium">
-                                Explore Services
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item-how-d10 style-reverse mb-lg-80 mb-0">
-                    <a href="feature.html" class="image wow fadeInRight">
-                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-2.jpg" alt="Image">
-                    </a>
-                    <div class="item-content">
-                        <p class="sub-title text-caption wow fadeInLeft">
-                            Get Approved
-                        </p>
-                        <h4 class="title wow fadeInLeft"><a href="feature.html">Fast Approval, Full Security</a></h4>
-                        <div class="desc text-body-3 wow fadeInLeft">
-                            Our smart system reviews your details instantly —
-                            <br>no paperwork, no waiting
-                        </div>
-                        <a href="feature.html"
-                            class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInLeft">
-                            <span class="text_btn fw-medium">
-                                Explore Services
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item-how-d10">
-                    <a href="feature.html" class="image wow fadeInLeft">
-                        <img loading="lazy" width="641" height="336" src="./assets/images/section/img-how-3.jpg" alt="Image">
-                    </a>
-                    <div class="col-md-6">
-                        <div class="item-content">
-                            <p class="sub-title text-caption wow fadeInRight">
-                                Start Spending
-                            </p>
-                            <h4 class="title wow fadeInRight"><a href="feature.html">Activate and <br>Enjoy Rewards</a>
-                            </h4>
-                            <div class="desc text-body-3 wow fadeInRight">
-                                Add your card to the app, shop anywhere, and
-                                <br>earn cashback on every purchase
-                            </div>
-                            <a href="feature.html"
-                                class="tf-btn-d10 style-noarrow style-bg-neu-900 hover-bg-primay-600 wow fadeInRight">
-                                <span class="text_btn fw-medium">
-                                    Explore Services
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section How It Work -->
-
-
-        <!-- Section Testimonials -->
-        <section class="section-testimonials-d10 flat-spacing-d10-1 page-home">
-            <div class="container-d10">
-                <div class="sw-testimonials-d10 tf-btn-swiper-main">
-                    <div class="img-bg">
-                        <img loading="lazy" width="1312" height="512" src="./assets/images/section/bg-tes-1.jpg" alt="Image">
-                    </div>
-                    <div class="btn-swiper nav-prev-swiper">
-                        <i class="icon icon-arrow-caret-left"></i>
-                    </div>
-                    <div dir="ltr" class="swiper tf-swiper" data-preview="1" data-tablet="1" data-mobile-sm="1"
-                        data-mobile="1" data-space-lg="0" data-space-md="0" data-space="0" data-pagination="1"
-                        data-pagination-sm="1" data-pagination-md="1" data-pagination-lg="1">
-                        <div class="swiper-wrapper">
-                            <!-- item 1 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “I’ve never managed my finances this easily before. The app keeps everything
-                                        organized,
-                                        secure, and
-                                        perfectly in sync with my lifestyle”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- item 2 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “Getting my card approved took less than five minutes, and I started earning
-                                        cashback right after. Super smooth experience”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- item 3 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “The interface is clean and intuitive. I can track expenses, pay bills, and
-                                        manage rewards without any hassle”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- item 4 -->
-                            <div class="swiper-slide">
-                                <div class="testimonials-item-d10">
-                                    <div class="rating-d10">
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                        <i class="icon-star-solid fs-24"></i>
-                                    </div>
-                                    <div class="h3 title">
-                                        “I’ve never managed my finances this easily before. The app keeps everything
-                                        organized,
-                                        secure, and
-                                        perfectly in sync with my lifestyle”
-                                    </div>
-                                    <div
-                                        class="user-testimonial d-flex align-items-center justify-content-center gap-16">
-
-                                        <a href="#" class="image">
-                                            <img loading="lazy" width="56" height="56"
-                                                src="./assets/images/avatar/avatar-user-tes.jpg" alt="Image">
-                                        </a>
-                                        <div class="user-content">
-                                            <a href="#" class="name fs-24 lh-30 fw-medium">Olivia Carter</a>
-                                            <a href="#" class="position">Financial Analyst</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sw-dot-pagination tf-sw-pagination d-lg-none"></div>
-                    </div>
-                    <div class="btn-swiper nav-next-swiper">
-                        <i class="icon icon-arrow-caret-right"></i>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section Testimonials -->
-
-
-        <!-- Section More Additional-->
         <section class="section-more-additional-d10 flat-spacing-d10-3">
 
             <div class="container-d10">
                 <div class="line"></div>
             </div>
 
-            <div class="section-more-content flat-spacing-d10-1">
+            <div class="seciton-benefit-d10 flat-spacing-d10-3">
                 <div class="container-d10">
-                    <div class="row rg-24">
-                        <div class="col-md-3">
-                            <div class="wg-customers-d10">
-                                <p class="text wow fadeZoom">
-                                    Trusted By
-                                    <br>Prestigious Customers
-                                </p>
-                                <div class="data-use-d10">
-                                    <div class="list-img">
-                                        <img loading="lazy" width="24" height="24" src="./assets/images/avatar/avatar-user-1.jpg"
-                                            alt="Image">
-                                        <img loading="lazy" width="24" height="24" src="./assets/images/avatar/avatar-user-3.jpg"
-                                            alt="Image">
-                                        <img loading="lazy" width="24" height="24" src="./assets/images/avatar/avatar-user-2.jpg"
-                                            alt="Image">
-                                    </div>
-                                    <div class="text">
-                                        40,000 +
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="seciton-benefit-top d-flex align-items-end justify-content-between gap-24 mb-lg-74">
+                        <div class="heading-section-d10">
+                            <h2 class="title wow fadeZoom">
+                                Everything You Need <br>to Run a Smarter, <br><span>More Efficient Restaurant</span>
+                            </h2>
                         </div>
-                        <div class="col-md-5">
-                            <div class="heading-section-d10">
-                                <h2 class="title">
-                                    Bank
-                                    <br>anywhere
-                                    <br><span>24/7</span>
-                                    <br>support
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
+                        <div class="section-content">
                             <div class="list-additional-d10">
                                 <div class="item mb-32">
                                     <div class="icon">
@@ -577,7 +318,7 @@ include "./components/navbar.php";
                                         </svg>
                                     </div>
                                     <div class="text text-body-1">
-                                        24/7 fast and helpful support
+                                        QR Code Menu
                                     </div>
                                 </div>
                                 <div class="item mb-32">
@@ -602,8 +343,7 @@ include "./components/navbar.php";
 
                                     </div>
                                     <div class="text text-body-1">
-                                        40,000 + fee-free aTMs
-                                        <br>nationwide
+                                        Payment Gateway Integration
                                     </div>
                                 </div>
                                 <div class="item mb-32">
@@ -644,7 +384,7 @@ include "./components/navbar.php";
                                         </svg>
                                     </div>
                                     <div class="text text-body-1">
-                                        easy cash deposits in-store
+                                        POS (Point of Sale)
                                     </div>
                                 </div>
                                 <div class="item">
@@ -663,8 +403,7 @@ include "./components/navbar.php";
 
                                     </div>
                                     <div class="text text-body-1">
-                                        convenient locations like CVS
-                                        <br>walgreens, and McDonalds
+                                        Kitchen Order Tickets
                                     </div>
                                 </div>
                             </div>
@@ -677,7 +416,6 @@ include "./components/navbar.php";
                 <div class="line"></div>
             </div>
         </section>
-        <!-- /Section More Additional-->
 
 <?php 
 include "./components/cta.php";
